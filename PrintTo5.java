@@ -4,7 +4,12 @@ public class PrintTo5 {
 	public static void main(String[] args) {
 		// Declares an int variable, and sets it to 1
         int i = 0;
-        int j = 0;
+        while(i<6){
+            System.out.println(i);
+            i = i+1;
+
+        }
+        System.out.println("done");
         // Complete the program's code here:
     }
  }
